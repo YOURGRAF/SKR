@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>330</width>
+    <height>140</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Secret Keeper Router</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="gradient">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>330</width>
+      <height>140</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../Images/gradient_table.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="table_1_1">
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>8</y>
+      <width>130</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Microsoft YaHei</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: #ffffff;</string>
+    </property>
+    <property name="text">
+     <string>Логин WIFI</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="table_1_2">
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>44</y>
+      <width>130</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Microsoft YaHei</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: #ffffff;</string>
+    </property>
+    <property name="text">
+     <string>Пароль WIFI</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="table_1_3">
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>76</y>
+      <width>130</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Microsoft YaHei</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: #ffffff;</string>
+    </property>
+    <property name="text">
+     <string>Безопасность</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="table_1_4">
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>108</y>
+      <width>130</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Microsoft YaHei</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: #ffffff;</string>
+    </property>
+    <property name="text">
+     <string>Группы</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="table_2_1">
+    <property name="geometry">
+     <rect>
+      <x>145</x>
+      <y>8</y>
+      <width>180</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Microsoft YaHei</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: #ffffff;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="table_2_2">
+    <property name="geometry">
+     <rect>
+      <x>145</x>
+      <y>44</y>
+      <width>180</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Microsoft YaHei</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: #ffffff;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="table_2_3">
+    <property name="geometry">
+     <rect>
+      <x>145</x>
+      <y>76</y>
+      <width>180</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Microsoft YaHei</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: #ffffff;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="table_2_4">
+    <property name="geometry">
+     <rect>
+      <x>145</x>
+      <y>108</y>
+      <width>180</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Microsoft YaHei</family>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: #ffffff;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>0</y>
+      <width>2</width>
+      <height>200</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #000000;</string>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="all_group">
+    <property name="geometry">
+     <rect>
+      <x>305</x>
+      <y>115</y>
+      <width>15</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Microsoft YaHei</family>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+ background: #000000;
+ border-radius: 7px;
+ color: #ffffff;
+}
+QPushButton:hover{
+ background: #595959;
+}
+QPushButton:pressed{
+ background: #ffffff;
+ color: #000000;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>i</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

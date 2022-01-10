@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>650</width>
+    <height>265</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Secret Keeper Router</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="gradient">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>650</width>
+      <height>300</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../Images/gradient.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="text_1">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>5</y>
+      <width>655</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Microsoft YaHei</family>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:#e3eded</string>
+    </property>
+    <property name="text">
+     <string>Доступ к Интернету включает в себя:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="text_4">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>120</y>
+      <width>451</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Microsoft YaHei</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:#e3eded</string>
+    </property>
+    <property name="text">
+     <string>- Установление доступа по группам</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="text_2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>50</y>
+      <width>451</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Microsoft YaHei</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:#e3eded</string>
+    </property>
+    <property name="text">
+     <string>- Установление доступа без пароля</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="text_5">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>155</y>
+      <width>451</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Microsoft YaHei</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:#e3eded</string>
+    </property>
+    <property name="text">
+     <string>- Снятие доступа по группам</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="text_3">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>85</y>
+      <width>451</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Microsoft YaHei</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:#e3eded</string>
+    </property>
+    <property name="text">
+     <string>- Установление доступа с паролем</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="text_6">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>190</y>
+      <width>451</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Microsoft YaHei</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:#e3eded</string>
+    </property>
+    <property name="text">
+     <string>- Установление запрета на доступ</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
